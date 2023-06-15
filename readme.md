@@ -54,9 +54,7 @@
 |    구현체    |        Spring         |           AspectJ           |
 | AOP 지원 범위 |      Spring Bean      |            모든 객체            |
 | PointCut  |          메서드          |        메서드, 필드, 객체 등        |
-|  Advice   | Around, Before, After | Around, Before, After 등 7가지 |
 |  컴파일 시점   |          런타임          |             컴파일             |
-|  스프링 버전   |        2.0 이후         |           1.0 이후            |
 |    장점     |        스프링 기반         |        모든 객체에 적용 가능         |
 |    단점     | Spring Bean 에만 적용 가능  |   컴파일 시점에 바이트 코드를 조작해야 함    |
 
